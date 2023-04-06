@@ -1,8 +1,6 @@
 import ReactDOM from "react-dom/client";
 import React, { useState, useEffect } from "react";
 import './index.css'
-//import { validateFirstName, validateLastName, validateEmail } from '../validators/validators.js'
-//import Form from "../components/form.jsx";
 
 const App = () => {
 
@@ -126,11 +124,6 @@ const App = () => {
                     ))}
                     </tbody>
                 </table>            
-                    {/* <ul>
-                    {usersInDB.map(user => (
-                        <li key={user._id}>Firstname: {user.firstName}, Lastname: {user.lastName}, email: {user.email}</li>
-                    ))}
-                    </ul> */}
             </div>
         </div>
     )
